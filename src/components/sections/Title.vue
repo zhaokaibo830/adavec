@@ -30,31 +30,26 @@ const authors = [
   },
   {
     name: "Liang Bao",
-    icon: "./icon/anya.jpg",
     homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
     address_flag: "1"
   },
   {
     name: "Yufei Li",
-    icon: "./icon/capoo.webp",
     homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
     address_flag: "1"
   },
   {
     name: "Xu Su",
-    icon: "./icon/capoo.webp",
     homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
     address_flag: "1"
   },
   {
     name: "Ke Zhang",
-    icon: "./icon/capoo.webp",
     homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
     address_flag: "1"
   },
   {
     name: "Xiaotian Qiao",
-    icon: "./icon/capoo.webp",
     homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
     address_flag: "1,2*"
   },
@@ -65,13 +60,11 @@ const addresses = [
   {
     address_flag: "1",
     name: "School of Computer Science and Technology, Xidian University, China",
-    icon: "./icon/home.png",
     homepage: "https://cs.xidian.edu.cn/"
   },
   {
     address_flag: "2",
     name: "Guangzhou Institute of Technology, Xidian University, China",
-    icon: "./icon/ikun.avif",
     homepage: "https://gzyjy.xidian.edu.cn/"
   },
 ]
