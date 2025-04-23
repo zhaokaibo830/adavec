@@ -25,7 +25,6 @@ const btn_color = '#444444'
 const authors = [
   {
     name: "Kaibo Zhao",
-    icon: "./icon/junyaohu.jpg",
     homepage: "https://zhaokaibo830.github.io/",
     address_flag: "1"
   },
