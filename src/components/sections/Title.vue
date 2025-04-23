@@ -27,37 +27,37 @@ const authors = [
     name: "Kaibo Zhao",
     icon: "./icon/junyaohu.jpg",
     homepage: "https://zhaokaibo830.github.io/",
-    address_flag: "1,#"
+    address_flag: "1"
   },
   {
     name: "Liang Bao",
     icon: "./icon/anya.jpg",
     homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
-    address_flag: "2,#"
+    address_flag: "1"
   },
   {
     name: "Yufei Li",
     icon: "./icon/capoo.webp",
     homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
+    address_flag: "1"
   },
   {
     name: "Xu Su",
     icon: "./icon/capoo.webp",
     homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
+    address_flag: "1"
   },
   {
     name: "Ke Zhang",
     icon: "./icon/capoo.webp",
     homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
+    address_flag: "1"
   },
   {
     name: "Xiaotian Qiao",
     icon: "./icon/capoo.webp",
     homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
+    address_flag: "1,2*"
   },
 ]
 
@@ -67,19 +67,19 @@ const addresses = [
     address_flag: "1",
     name: "School of Computer Science and Technology, Xidian University, China",
     icon: "./icon/home.png",
-    homepage: "https://github.com/hmuniversity"
+    homepage: "https://cs.xidian.edu.cn/"
   },
   {
     address_flag: "2",
     name: "Guangzhou Institute of Technology, Xidian University, China",
     icon: "./icon/ikun.avif",
-    homepage: "https://www.bilibili.com/video/BV178411Y7QB"
+    homepage: "https://gzyjy.xidian.edu.cn/"
   },
 ]
 
 // 共一和通讯提示
 const con_and_corresponding_author = 
-  "#: Equal Contribution. *: Corresponding Author."
+  "*: Corresponding Author."
 
 // 最新消息
 const news = "🔥 [2024-12-15] This template project is still under development."
