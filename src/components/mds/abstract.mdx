@@ -1,3 +1,10 @@
 # Abstract
 
-Aute amet minim mollit nisi adipisicing cupidatat. Duis sit tempor consequat ea nisi qui consequat deserunt. Officia duis sit mollit dolor officia occaecat. Minim aute excepteur nostrud adipisicing magna nisi amet. Laborum aliqua ut ex cillum qui ipsum tempor officia sunt. Reprehenderit est ex sit fugiat laborum reprehenderit proident deserunt sint pariatur cillum voluptate irure. Voluptate laboris velit veniam exercitation sunt eiusmod occaecat velit fugiat ad.
+Image vectorization aims to convert raster images to vector ones, allowing for easy scaling and editing.
+Existing works mainly rely on preset parameters (\ie, a fixed number of paths and control points), ignoring the complexity of the image and posing significant challenges to practical applications.
+We demonstrate that such an assumption is often incorrect, as the preset paths or control points may be neither essential nor enough to achieve accurate and editable vectorization results.
+Based on this key insight, in this paper, we propose AdaVec, an efficient image vectorization method with adaptive parametrization, where the paths and control points can be adjusted dynamically based on the complexity of the input raster image.
+In particular, we first decompose the input raster image into a set of pure-colored layers that are aligned with human perception.
+For each layer with varying shape complexity, we propose a novel allocation mechanism to adaptively adjust the control point distribution.
+We further adopt a differentiable rendering process to compose and optimize the shape and color parameters of each layer iteratively.
+Extensive experiments demonstrate that AdaVec outperforms the baselines qualitatively and quantitatively, in terms of computational efficiency,  vectorization accuracy, and editing flexibility.
