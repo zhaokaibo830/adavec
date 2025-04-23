@@ -65,13 +65,13 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
-    name: "Home University",
+    name: "School of Computer Science and Technology, Xidian University, China",
     icon: "./icon/home.png",
     homepage: "https://github.com/hmuniversity"
   },
   {
     address_flag: "2",
-    name: "IKUN University",
+    name: "Guangzhou Institute of Technology, Xidian University, China",
     icon: "./icon/ikun.avif",
     homepage: "https://www.bilibili.com/video/BV178411Y7QB"
   },
