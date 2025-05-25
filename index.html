@@ -178,7 +178,10 @@
       <div class="content has-text-justified">
         <img src="static/images/pipeline.png">
         <p>
-          Our two-stage style customization pipeline for SVGs. (a) In Stage 1, we train a path-level T2V diffusion model on black-and-white SVG datasets to focus on learning the contents and structures of SVGs. (b) In Stage 2, we learn various styles of SVGs by distilling priors from different customized T2I models. (c) After training, our T2V model can generate SVGs in custom styles learned during Stage 2 in a feed-forward manner by appending the corresponding style token to the text prompt.
+          The overall pipeline of our image vectorization method.
+         Given an input raster image, we first extract a set of vector paths that are aligned with human perception in the multi-layer decomposition stage.
+         Then, in the control point simplification stage, we propose an adaptive simplification strategy to reduce redundancy in control points along the vector paths and optimize individual control points to avoid intersections.
+         Finally, in the differentiable rendering stage, we compose the optimized layers and adjust the shape and color parameters iteratively to generate the output vectorized image.
         </p>
       </div>
     </div>
@@ -198,7 +201,7 @@
         <div class="column is-full-width">
           <img src="static/images/result.png" width="100%" class="shadow-style">
           <p>
-            More results of our style customization of T2V generation. Our approach supports diverse customized styles in a feed-forward manner.
+            Qualitative reconstruction comparison. We compare the effectiveness of AdaVec against O&R, SGLIVE, and LIVE in processing images of varying complexity, evaluating by adjusting the number of paths (N) to 256 and 64. The experiment covers simple images (first three rows) and complex images (last two rows). The key regions are enlarged for better visualization.
           </p>
         </div>
       </div>    
